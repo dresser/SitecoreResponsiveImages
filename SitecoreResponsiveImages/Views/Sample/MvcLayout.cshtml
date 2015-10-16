@@ -1,0 +1,19 @@
+﻿@using Sitecore.Mvc.Presentation
+<!DOCTYPE html>
+<html>
+<head>
+  <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+    <style type="text/css">
+
+    </style>
+</head>
+  <body>
+    <div>
+      @Html.Sitecore().Placeholder("main")
+    </div>
+      <script src="/Scripts/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript">
+
+      </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+﻿@using Sitecore.Mvc
+@using SitecoreResponsiveImages.Extensions
+<div>
+    @Html.Sitecore().ResponsiveImage("Image", new { w = 150 }, new ResponsiveSizes { Default="300", Mobile="300,450", Tablet="400,600", Desktop="600,900" })
+</div>

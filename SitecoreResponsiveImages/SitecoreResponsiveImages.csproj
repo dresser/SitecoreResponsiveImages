@@ -70,6 +70,8 @@
     <None Include="Lib\Sitecore.Kernel.dll" />
     <None Include="Lib\Sitecore.Mvc.dll" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery.responsImg.js" />
+    <Content Include="Scripts\jquery.responsImg.min.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>

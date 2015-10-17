@@ -12,8 +12,15 @@
       @Html.Sitecore().Placeholder("main")
     </div>
       <script src="/Scripts/jquery-2.1.4.min.js"></script>
+      <script src="/Scripts/jquery.responsImg.min.js"></script>
       <script type="text/javascript">
-
+          $('.responsive').responsImg({
+              breakpoints: {
+                  mobile: 320,
+                  tablet: 500,
+                  desktop: 960
+              }
+          });
       </script>
   </body>
 </html>
